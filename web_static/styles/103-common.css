@@ -1,0 +1,50 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    color: #484848;
+    font-size: 14px;
+    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   display: grid;
+   grid-template-rows: 70px minmax(100px, auto) 1fr;
+
+}
+
+div.container
+{
+   
+    display: grid;
+    grid-template-columns: auto;
+    margin: 30px 0;
+   padding: 0px 20px;
+    
+}
+
+
+
+@media  screen and (min-width: 700px) {
+    body
+    {
+        margin: 0;
+        padding: 0;
+        min-height: 100vh;
+        color: #484848;
+        font-size: 14px;
+        font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+       display: grid;
+       grid-template-rows: 70px minmax(100px, auto) 1fr;
+    
+    }
+    
+    div.container
+    {
+       
+        display: grid;
+        grid-template-columns: minmax(700px);
+        margin: 30px auto;
+        max-width: 1000px;
+        
+    }
+}
+
